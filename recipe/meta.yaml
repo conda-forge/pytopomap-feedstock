@@ -1,5 +1,5 @@
 {% set name = "pytopomap" %}
-{% set version = "0.0.2" %}
+{% set version = "0.0.3" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pytopomap-{{ version }}.tar.gz
-  sha256: 4a0abceb02c89195c8d0629eb8a8d5421ee19e90bda47135dfb94c7003f67417
+  sha256: e931f9cad7e226dda9adc6cb29e839b7e5db2e01d73cad3e54c8bac426f2ccb9
 
 build:
   noarch: python
